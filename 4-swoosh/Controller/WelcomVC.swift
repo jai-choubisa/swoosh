@@ -8,15 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class WelcomVC: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     //close pushed view Controller
-    @IBAction func unwindFromSkillVC(unwindSegue : UIStoryboardSegue){
+    @IBAction func unwindFromLeagueVC(unwindSegue : UIStoryboardSegue){
         
     }
 
